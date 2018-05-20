@@ -1,0 +1,670 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50C2D6F216EC3D1A0022FE5C /* SigmaCookieUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C2D6F116EC3D1A0022FE5C /* SigmaCookieUtil.m */; };
+		50C485B416ED8C5A00705409 /* SigmaBackgroundTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C485B316ED8C5A00705409 /* SigmaBackgroundTask.m */; };
+		50C485B716ED8FF500705409 /* DuxiuAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C485B616ED8FF500705409 /* DuxiuAboutViewController.m */; };
+		50C485F916EDED2B00705409 /* DuxiuDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C485F816EDED2B00705409 /* DuxiuDetailViewController.m */; };
+		50C4A7AC16F410050059289C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50C4A7AB16F410050059289C /* Default@2x.png */; };
+		50C4A7B016F415830059289C /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 50C4A7AF16F415830059289C /* Default-Landscape~ipad.png */; };
+		50C4A7B216F415A90059289C /* Default-Landscape@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 50C4A7B116F415A90059289C /* Default-Landscape@2x~ipad.png */; };
+		50C4A7B416F4160B0059289C /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 50C4A7B316F4160B0059289C /* Default-Portrait~ipad.png */; };
+		50C4A7B616F416700059289C /* Default-Portrait@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 50C4A7B516F416700059289C /* Default-Portrait@2x~ipad.png */; };
+		50C4A7B716F418300059289C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5058D8F416F347D2006B8684 /* Default-568h@2x.png */; };
+		50C4A7B816F418560059289C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 50C4A7AD16F4111B0059289C /* Default.png */; };
+		50C6BF4516EF5EDE00ADC8DC /* SigmaViewControllerUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C6BF4416EF5EDE00ADC8DC /* SigmaViewControllerUtil.m */; };
+		50F16A5E16EB50B5000E955E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50F16A5D16EB50B5000E955E /* UIKit.framework */; };
+		50F16A6016EB50B5000E955E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50F16A5F16EB50B5000E955E /* Foundation.framework */; };
+		50F16A6216EB50B5000E955E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50F16A6116EB50B5000E955E /* CoreGraphics.framework */; };
+		50F16AD616EB5178000E955E /* DuxiuAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F16A7D16EB5178000E955E /* DuxiuAppDelegate.m */; };
+		50F16AD716EB5178000E955E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 50F16A7E16EB5178000E955E /* InfoPlist.strings */; };
+		50F16AD816EB5178000E955E /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50F16A8016EB5178000E955E /* MainStoryboard_iPad.storyboard */; };
+		50F16AD916EB5178000E955E /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50F16A8216EB5178000E955E /* MainStoryboard_iPhone.storyboard */; };
+		50F16ADA16EB5178000E955E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F16A8416EB5178000E955E /* main.m */; };
+		50F16ADB16EB5178000E955E /* DuxiuTaskActionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F16A8816EB5178000E955E /* DuxiuTaskActionView.m */; };
+		50F16ADC16EB5178000E955E /* DuxiuBookmarkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F16A8A16EB5178000E955E /* DuxiuBookmarkViewController.m */; };
+		50F16ADD16EB5178000E955E /* DuxiuBrowseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F16A8C16EB5178000E955E /* DuxiuBrowseViewController.m */; };
+		50F16ADE16EB5178000E955E /* DuxiuHistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F16A8E16EB5178000E955E /* DuxiuHistoryViewController.m */; };
+		50F16ADF16EB5178000E955E /* DuxiuPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F16A9016EB5178000E955E /* DuxiuPickerViewController.m */; };
+		50F16AE016EB5178000E955E /* DuxiuTaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F16A9216EB5178000E955E /* DuxiuTaskViewController.m */; };
+		50F16AE116EB5178000E955E /* DuxiuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F16A9616EB5178000E955E /* DuxiuController.m */; };
+		50F16AE216EB5178000E955E /* DuxiuBookPageData.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F16A9916EB5178000E955E /* DuxiuBookPageData.m */; };
+		50F16AE316EB5178000E955E /* DuxiuBookPageType.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F16A9B16EB5178000E955E /* DuxiuBookPageType.m */; };
+		50F16AE416EB5178000E955E /* DuxiuBookPageZoom.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F16A9D16EB5178000E955E /* DuxiuBookPageZoom.m */; };
+		50F16AE516EB5178000E955E /* DuxiuBrowseItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F16A9F16EB5178000E955E /* DuxiuBrowseItem.m */; };
+		50F16AE616EB5178000E955E /* DuxiuBrowseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F16AA216EB5178000E955E /* DuxiuBrowseModel.m */; };
+		50F16AE716EB5178000E955E /* DuxiuCountModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F16AA416EB5178000E955E /* DuxiuCountModel.m */; };
+		50F16AE816EB5178000E955E /* DuxiuDownloadModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F16AA616EB5178000E955E /* DuxiuDownloadModel.m */; };
+		50F16AE916EB5178000E955E /* DuxiuExportModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F16AA816EB5178000E955E /* DuxiuExportModel.m */; };
+		50F16AEA16EB5178000E955E /* DuxiuModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F16AAA16EB5178000E955E /* DuxiuModel.m */; };
+		50F16AEB16EB5178000E955E /* DuxiuTaskModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F16AAC16EB5178000E955E /* DuxiuTaskModel.m */; };
+		50F16AEC16EB5178000E955E /* DuxiuBookPageCounter.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F16AAF16EB5178000E955E /* DuxiuBookPageCounter.m */; };
+		50F16AED16EB5178000E955E /* DuxiuBookPageDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F16AB116EB5178000E955E /* DuxiuBookPageDefine.m */; };
+		50F16AEE16EB5178000E955E /* DuxiuBookPageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F16AB316EB5178000E955E /* DuxiuBookPageDownloader.m */; };
+		50F16AEF16EB5178000E955E /* DuxiuBookPageIterator.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F16AB516EB5178000E955E /* DuxiuBookPageIterator.m */; };
+		50F16AF016EB5178000E955E /* DuxiuBookPageRange.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F16AB716EB5178000E955E /* DuxiuBookPageRange.m */; };
+		50F16AF116EB5178000E955E /* DuxiuBookPagesExporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F16AB916EB5178000E955E /* DuxiuBookPagesExporter.m */; };
+		50F16AF216EB5178000E955E /* Icon-iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 50F16ABA16EB5178000E955E /* Icon-iPad.png */; };
+		50F16AF316EB5178000E955E /* Icon-iPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50F16ABB16EB5178000E955E /* Icon-iPad@2x.png */; };
+		50F16AF416EB5178000E955E /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 50F16ABC16EB5178000E955E /* Icon.png */; };
+		50F16AF516EB5178000E955E /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50F16ABD16EB5178000E955E /* Icon@2x.png */; };
+		50F16AF616EB5178000E955E /* SigmaWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F16AC116EB5178000E955E /* SigmaWebView.m */; };
+		50F16AF716EB5178000E955E /* SigmaBaseHtmlVarSearcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F16AC516EB5178000E955E /* SigmaBaseHtmlVarSearcher.m */; };
+		50F16AF816EB5178000E955E /* SigmaHtmlVarSearcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F16AC716EB5178000E955E /* SigmaHtmlVarSearcher.m */; };
+		50F16AF916EB5178000E955E /* SigmaTextHtmlVarSearcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F16AC916EB5178000E955E /* SigmaTextHtmlVarSearcher.m */; };
+		50F16AFA16EB5178000E955E /* SigmaURLLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F16ACB16EB5178000E955E /* SigmaURLLoader.m */; };
+		50F16AFB16EB5178000E955E /* SigmaWebHtmlVarSearcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F16ACD16EB5178000E955E /* SigmaWebHtmlVarSearcher.m */; };
+		50F16AFC16EB5178000E955E /* SigmaBrowserUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F16AD016EB5178000E955E /* SigmaBrowserUtil.m */; };
+		50F16AFD16EB5178000E955E /* SigmaFileUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F16AD216EB5178000E955E /* SigmaFileUtil.m */; };
+		50F16AFE16EB5178000E955E /* SigmaStringUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F16AD416EB5178000E955E /* SigmaStringUtil.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5058D8F416F347D2006B8684 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		50C2D6F016EC3D1A0022FE5C /* SigmaCookieUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SigmaCookieUtil.h; sourceTree = "<group>"; };
+		50C2D6F116EC3D1A0022FE5C /* SigmaCookieUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SigmaCookieUtil.m; sourceTree = "<group>"; };
+		50C485B216ED8C5A00705409 /* SigmaBackgroundTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SigmaBackgroundTask.h; sourceTree = "<group>"; };
+		50C485B316ED8C5A00705409 /* SigmaBackgroundTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SigmaBackgroundTask.m; sourceTree = "<group>"; };
+		50C485B516ED8FF500705409 /* DuxiuAboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DuxiuAboutViewController.h; sourceTree = "<group>"; };
+		50C485B616ED8FF500705409 /* DuxiuAboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DuxiuAboutViewController.m; sourceTree = "<group>"; };
+		50C485F716EDED2B00705409 /* DuxiuDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DuxiuDetailViewController.h; sourceTree = "<group>"; };
+		50C485F816EDED2B00705409 /* DuxiuDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DuxiuDetailViewController.m; sourceTree = "<group>"; };
+		50C4A7AB16F410050059289C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		50C4A7AD16F4111B0059289C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		50C4A7AF16F415830059289C /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~ipad.png"; sourceTree = "<group>"; };
+		50C4A7B116F415A90059289C /* Default-Landscape@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape@2x~ipad.png"; sourceTree = "<group>"; };
+		50C4A7B316F4160B0059289C /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
+		50C4A7B516F416700059289C /* Default-Portrait@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x~ipad.png"; sourceTree = "<group>"; };
+		50C6BF4316EF5EDE00ADC8DC /* SigmaViewControllerUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SigmaViewControllerUtil.h; sourceTree = "<group>"; };
+		50C6BF4416EF5EDE00ADC8DC /* SigmaViewControllerUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SigmaViewControllerUtil.m; sourceTree = "<group>"; };
+		50F16A5916EB50B5000E955E /* DuxiuApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DuxiuApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		50F16A5D16EB50B5000E955E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		50F16A5F16EB50B5000E955E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		50F16A6116EB50B5000E955E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		50F16A7A16EB5178000E955E /* DuxiuApp-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "DuxiuApp-Info.plist"; sourceTree = "<group>"; };
+		50F16A7B16EB5178000E955E /* DuxiuApp-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DuxiuApp-Prefix.pch"; sourceTree = "<group>"; };
+		50F16A7C16EB5178000E955E /* DuxiuAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DuxiuAppDelegate.h; sourceTree = "<group>"; };
+		50F16A7D16EB5178000E955E /* DuxiuAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DuxiuAppDelegate.m; sourceTree = "<group>"; };
+		50F16A7F16EB5178000E955E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		50F16A8116EB5178000E955E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		50F16A8316EB5178000E955E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		50F16A8416EB5178000E955E /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		50F16A8716EB5178000E955E /* DuxiuTaskActionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DuxiuTaskActionView.h; sourceTree = "<group>"; };
+		50F16A8816EB5178000E955E /* DuxiuTaskActionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DuxiuTaskActionView.m; sourceTree = "<group>"; };
+		50F16A8916EB5178000E955E /* DuxiuBookmarkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DuxiuBookmarkViewController.h; sourceTree = "<group>"; };
+		50F16A8A16EB5178000E955E /* DuxiuBookmarkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DuxiuBookmarkViewController.m; sourceTree = "<group>"; };
+		50F16A8B16EB5178000E955E /* DuxiuBrowseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DuxiuBrowseViewController.h; sourceTree = "<group>"; };
+		50F16A8C16EB5178000E955E /* DuxiuBrowseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DuxiuBrowseViewController.m; sourceTree = "<group>"; };
+		50F16A8D16EB5178000E955E /* DuxiuHistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DuxiuHistoryViewController.h; sourceTree = "<group>"; };
+		50F16A8E16EB5178000E955E /* DuxiuHistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DuxiuHistoryViewController.m; sourceTree = "<group>"; };
+		50F16A8F16EB5178000E955E /* DuxiuPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DuxiuPickerViewController.h; sourceTree = "<group>"; };
+		50F16A9016EB5178000E955E /* DuxiuPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DuxiuPickerViewController.m; sourceTree = "<group>"; };
+		50F16A9116EB5178000E955E /* DuxiuTaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DuxiuTaskViewController.h; sourceTree = "<group>"; };
+		50F16A9216EB5178000E955E /* DuxiuTaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DuxiuTaskViewController.m; sourceTree = "<group>"; };
+		50F16A9516EB5178000E955E /* DuxiuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DuxiuController.h; sourceTree = "<group>"; };
+		50F16A9616EB5178000E955E /* DuxiuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DuxiuController.m; sourceTree = "<group>"; };
+		50F16A9816EB5178000E955E /* DuxiuBookPageData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DuxiuBookPageData.h; sourceTree = "<group>"; };
+		50F16A9916EB5178000E955E /* DuxiuBookPageData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DuxiuBookPageData.m; sourceTree = "<group>"; };
+		50F16A9A16EB5178000E955E /* DuxiuBookPageType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DuxiuBookPageType.h; sourceTree = "<group>"; };
+		50F16A9B16EB5178000E955E /* DuxiuBookPageType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DuxiuBookPageType.m; sourceTree = "<group>"; };
+		50F16A9C16EB5178000E955E /* DuxiuBookPageZoom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DuxiuBookPageZoom.h; sourceTree = "<group>"; };
+		50F16A9D16EB5178000E955E /* DuxiuBookPageZoom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DuxiuBookPageZoom.m; sourceTree = "<group>"; };
+		50F16A9E16EB5178000E955E /* DuxiuBrowseItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DuxiuBrowseItem.h; sourceTree = "<group>"; };
+		50F16A9F16EB5178000E955E /* DuxiuBrowseItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DuxiuBrowseItem.m; sourceTree = "<group>"; };
+		50F16AA116EB5178000E955E /* DuxiuBrowseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DuxiuBrowseModel.h; sourceTree = "<group>"; };
+		50F16AA216EB5178000E955E /* DuxiuBrowseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DuxiuBrowseModel.m; sourceTree = "<group>"; };
+		50F16AA316EB5178000E955E /* DuxiuCountModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DuxiuCountModel.h; sourceTree = "<group>"; };
+		50F16AA416EB5178000E955E /* DuxiuCountModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DuxiuCountModel.m; sourceTree = "<group>"; };
+		50F16AA516EB5178000E955E /* DuxiuDownloadModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DuxiuDownloadModel.h; sourceTree = "<group>"; };
+		50F16AA616EB5178000E955E /* DuxiuDownloadModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DuxiuDownloadModel.m; sourceTree = "<group>"; };
+		50F16AA716EB5178000E955E /* DuxiuExportModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DuxiuExportModel.h; sourceTree = "<group>"; };
+		50F16AA816EB5178000E955E /* DuxiuExportModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DuxiuExportModel.m; sourceTree = "<group>"; };
+		50F16AA916EB5178000E955E /* DuxiuModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DuxiuModel.h; sourceTree = "<group>"; };
+		50F16AAA16EB5178000E955E /* DuxiuModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DuxiuModel.m; sourceTree = "<group>"; };
+		50F16AAB16EB5178000E955E /* DuxiuTaskModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DuxiuTaskModel.h; sourceTree = "<group>"; };
+		50F16AAC16EB5178000E955E /* DuxiuTaskModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DuxiuTaskModel.m; sourceTree = "<group>"; };
+		50F16AAE16EB5178000E955E /* DuxiuBookPageCounter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DuxiuBookPageCounter.h; sourceTree = "<group>"; };
+		50F16AAF16EB5178000E955E /* DuxiuBookPageCounter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DuxiuBookPageCounter.m; sourceTree = "<group>"; };
+		50F16AB016EB5178000E955E /* DuxiuBookPageDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DuxiuBookPageDefine.h; sourceTree = "<group>"; };
+		50F16AB116EB5178000E955E /* DuxiuBookPageDefine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DuxiuBookPageDefine.m; sourceTree = "<group>"; };
+		50F16AB216EB5178000E955E /* DuxiuBookPageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DuxiuBookPageDownloader.h; sourceTree = "<group>"; };
+		50F16AB316EB5178000E955E /* DuxiuBookPageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DuxiuBookPageDownloader.m; sourceTree = "<group>"; };
+		50F16AB416EB5178000E955E /* DuxiuBookPageIterator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DuxiuBookPageIterator.h; sourceTree = "<group>"; };
+		50F16AB516EB5178000E955E /* DuxiuBookPageIterator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DuxiuBookPageIterator.m; sourceTree = "<group>"; };
+		50F16AB616EB5178000E955E /* DuxiuBookPageRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DuxiuBookPageRange.h; sourceTree = "<group>"; };
+		50F16AB716EB5178000E955E /* DuxiuBookPageRange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DuxiuBookPageRange.m; sourceTree = "<group>"; };
+		50F16AB816EB5178000E955E /* DuxiuBookPagesExporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DuxiuBookPagesExporter.h; sourceTree = "<group>"; };
+		50F16AB916EB5178000E955E /* DuxiuBookPagesExporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DuxiuBookPagesExporter.m; sourceTree = "<group>"; };
+		50F16ABA16EB5178000E955E /* Icon-iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-iPad.png"; sourceTree = "<group>"; };
+		50F16ABB16EB5178000E955E /* Icon-iPad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-iPad@2x.png"; sourceTree = "<group>"; };
+		50F16ABC16EB5178000E955E /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		50F16ABD16EB5178000E955E /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		50F16AC016EB5178000E955E /* SigmaWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SigmaWebView.h; sourceTree = "<group>"; };
+		50F16AC116EB5178000E955E /* SigmaWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SigmaWebView.m; sourceTree = "<group>"; };
+		50F16AC316EB5178000E955E /* ISigmaHtmlVarSearcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISigmaHtmlVarSearcher.h; sourceTree = "<group>"; };
+		50F16AC416EB5178000E955E /* SigmaBaseHtmlVarSearcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SigmaBaseHtmlVarSearcher.h; sourceTree = "<group>"; };
+		50F16AC516EB5178000E955E /* SigmaBaseHtmlVarSearcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SigmaBaseHtmlVarSearcher.m; sourceTree = "<group>"; };
+		50F16AC616EB5178000E955E /* SigmaHtmlVarSearcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SigmaHtmlVarSearcher.h; sourceTree = "<group>"; };
+		50F16AC716EB5178000E955E /* SigmaHtmlVarSearcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SigmaHtmlVarSearcher.m; sourceTree = "<group>"; };
+		50F16AC816EB5178000E955E /* SigmaTextHtmlVarSearcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SigmaTextHtmlVarSearcher.h; sourceTree = "<group>"; };
+		50F16AC916EB5178000E955E /* SigmaTextHtmlVarSearcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SigmaTextHtmlVarSearcher.m; sourceTree = "<group>"; };
+		50F16ACA16EB5178000E955E /* SigmaURLLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SigmaURLLoader.h; sourceTree = "<group>"; };
+		50F16ACB16EB5178000E955E /* SigmaURLLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SigmaURLLoader.m; sourceTree = "<group>"; };
+		50F16ACC16EB5178000E955E /* SigmaWebHtmlVarSearcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SigmaWebHtmlVarSearcher.h; sourceTree = "<group>"; };
+		50F16ACD16EB5178000E955E /* SigmaWebHtmlVarSearcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SigmaWebHtmlVarSearcher.m; sourceTree = "<group>"; };
+		50F16ACF16EB5178000E955E /* SigmaBrowserUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SigmaBrowserUtil.h; sourceTree = "<group>"; };
+		50F16AD016EB5178000E955E /* SigmaBrowserUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SigmaBrowserUtil.m; sourceTree = "<group>"; };
+		50F16AD116EB5178000E955E /* SigmaFileUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SigmaFileUtil.h; sourceTree = "<group>"; };
+		50F16AD216EB5178000E955E /* SigmaFileUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SigmaFileUtil.m; sourceTree = "<group>"; };
+		50F16AD316EB5178000E955E /* SigmaStringUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SigmaStringUtil.h; sourceTree = "<group>"; };
+		50F16AD416EB5178000E955E /* SigmaStringUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SigmaStringUtil.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50F16A5616EB50B5000E955E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50F16A5E16EB50B5000E955E /* UIKit.framework in Frameworks */,
+				50F16A6016EB50B5000E955E /* Foundation.framework in Frameworks */,
+				50F16A6216EB50B5000E955E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50C2D6EF16EC1F250022FE5C /* basic */ = {
+			isa = PBXGroup;
+			children = (
+				50F16A7E16EB5178000E955E /* InfoPlist.strings */,
+				50F16A7A16EB5178000E955E /* DuxiuApp-Info.plist */,
+				50F16A7B16EB5178000E955E /* DuxiuApp-Prefix.pch */,
+				50F16A7C16EB5178000E955E /* DuxiuAppDelegate.h */,
+				50F16A7D16EB5178000E955E /* DuxiuAppDelegate.m */,
+				50F16A8416EB5178000E955E /* main.m */,
+			);
+			name = basic;
+			sourceTree = "<group>";
+		};
+		50F16A4E16EB50B5000E955E = {
+			isa = PBXGroup;
+			children = (
+				50C4A7B516F416700059289C /* Default-Portrait@2x~ipad.png */,
+				50C4A7B316F4160B0059289C /* Default-Portrait~ipad.png */,
+				50C4A7B116F415A90059289C /* Default-Landscape@2x~ipad.png */,
+				50C4A7AF16F415830059289C /* Default-Landscape~ipad.png */,
+				50C4A7AD16F4111B0059289C /* Default.png */,
+				50C4A7AB16F410050059289C /* Default@2x.png */,
+				5058D8F416F347D2006B8684 /* Default-568h@2x.png */,
+				50F16A7916EB5178000E955E /* DuxiuApp */,
+				50F16A9316EB5178000E955E /* DuxiuLib */,
+				50F16ABA16EB5178000E955E /* Icon-iPad.png */,
+				50F16ABB16EB5178000E955E /* Icon-iPad@2x.png */,
+				50F16ABC16EB5178000E955E /* Icon.png */,
+				50F16ABD16EB5178000E955E /* Icon@2x.png */,
+				50F16ABE16EB5178000E955E /* SigmaLib */,
+				50F16A5C16EB50B5000E955E /* Frameworks */,
+				50F16A5A16EB50B5000E955E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		50F16A5A16EB50B5000E955E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50F16A5916EB50B5000E955E /* DuxiuApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50F16A5C16EB50B5000E955E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				50F16A5D16EB50B5000E955E /* UIKit.framework */,
+				50F16A5F16EB50B5000E955E /* Foundation.framework */,
+				50F16A6116EB50B5000E955E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		50F16A7916EB5178000E955E /* DuxiuApp */ = {
+			isa = PBXGroup;
+			children = (
+				50C2D6EF16EC1F250022FE5C /* basic */,
+				50F16A8016EB5178000E955E /* MainStoryboard_iPad.storyboard */,
+				50F16A8216EB5178000E955E /* MainStoryboard_iPhone.storyboard */,
+				50F16A8516EB5178000E955E /* view */,
+			);
+			path = DuxiuApp;
+			sourceTree = "<group>";
+		};
+		50F16A8516EB5178000E955E /* view */ = {
+			isa = PBXGroup;
+			children = (
+				50F16A8616EB5178000E955E /* components */,
+				50F16A8916EB5178000E955E /* DuxiuBookmarkViewController.h */,
+				50F16A8A16EB5178000E955E /* DuxiuBookmarkViewController.m */,
+				50F16A8B16EB5178000E955E /* DuxiuBrowseViewController.h */,
+				50F16A8C16EB5178000E955E /* DuxiuBrowseViewController.m */,
+				50F16A8D16EB5178000E955E /* DuxiuHistoryViewController.h */,
+				50F16A8E16EB5178000E955E /* DuxiuHistoryViewController.m */,
+				50F16A8F16EB5178000E955E /* DuxiuPickerViewController.h */,
+				50F16A9016EB5178000E955E /* DuxiuPickerViewController.m */,
+				50F16A9116EB5178000E955E /* DuxiuTaskViewController.h */,
+				50F16A9216EB5178000E955E /* DuxiuTaskViewController.m */,
+				50C485B516ED8FF500705409 /* DuxiuAboutViewController.h */,
+				50C485B616ED8FF500705409 /* DuxiuAboutViewController.m */,
+				50C485F716EDED2B00705409 /* DuxiuDetailViewController.h */,
+				50C485F816EDED2B00705409 /* DuxiuDetailViewController.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		50F16A8616EB5178000E955E /* components */ = {
+			isa = PBXGroup;
+			children = (
+				50F16A8716EB5178000E955E /* DuxiuTaskActionView.h */,
+				50F16A8816EB5178000E955E /* DuxiuTaskActionView.m */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
+		50F16A9316EB5178000E955E /* DuxiuLib */ = {
+			isa = PBXGroup;
+			children = (
+				50F16A9416EB5178000E955E /* controller */,
+				50F16A9716EB5178000E955E /* data */,
+				50F16AA016EB5178000E955E /* model */,
+				50F16AAD16EB5178000E955E /* utils */,
+			);
+			path = DuxiuLib;
+			sourceTree = "<group>";
+		};
+		50F16A9416EB5178000E955E /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				50F16A9516EB5178000E955E /* DuxiuController.h */,
+				50F16A9616EB5178000E955E /* DuxiuController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		50F16A9716EB5178000E955E /* data */ = {
+			isa = PBXGroup;
+			children = (
+				50F16A9816EB5178000E955E /* DuxiuBookPageData.h */,
+				50F16A9916EB5178000E955E /* DuxiuBookPageData.m */,
+				50F16A9A16EB5178000E955E /* DuxiuBookPageType.h */,
+				50F16A9B16EB5178000E955E /* DuxiuBookPageType.m */,
+				50F16A9C16EB5178000E955E /* DuxiuBookPageZoom.h */,
+				50F16A9D16EB5178000E955E /* DuxiuBookPageZoom.m */,
+				50F16A9E16EB5178000E955E /* DuxiuBrowseItem.h */,
+				50F16A9F16EB5178000E955E /* DuxiuBrowseItem.m */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		50F16AA016EB5178000E955E /* model */ = {
+			isa = PBXGroup;
+			children = (
+				50F16AA116EB5178000E955E /* DuxiuBrowseModel.h */,
+				50F16AA216EB5178000E955E /* DuxiuBrowseModel.m */,
+				50F16AA316EB5178000E955E /* DuxiuCountModel.h */,
+				50F16AA416EB5178000E955E /* DuxiuCountModel.m */,
+				50F16AA516EB5178000E955E /* DuxiuDownloadModel.h */,
+				50F16AA616EB5178000E955E /* DuxiuDownloadModel.m */,
+				50F16AA716EB5178000E955E /* DuxiuExportModel.h */,
+				50F16AA816EB5178000E955E /* DuxiuExportModel.m */,
+				50F16AA916EB5178000E955E /* DuxiuModel.h */,
+				50F16AAA16EB5178000E955E /* DuxiuModel.m */,
+				50F16AAB16EB5178000E955E /* DuxiuTaskModel.h */,
+				50F16AAC16EB5178000E955E /* DuxiuTaskModel.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		50F16AAD16EB5178000E955E /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				50F16AAE16EB5178000E955E /* DuxiuBookPageCounter.h */,
+				50F16AAF16EB5178000E955E /* DuxiuBookPageCounter.m */,
+				50F16AB016EB5178000E955E /* DuxiuBookPageDefine.h */,
+				50F16AB116EB5178000E955E /* DuxiuBookPageDefine.m */,
+				50F16AB216EB5178000E955E /* DuxiuBookPageDownloader.h */,
+				50F16AB316EB5178000E955E /* DuxiuBookPageDownloader.m */,
+				50F16AB416EB5178000E955E /* DuxiuBookPageIterator.h */,
+				50F16AB516EB5178000E955E /* DuxiuBookPageIterator.m */,
+				50F16AB616EB5178000E955E /* DuxiuBookPageRange.h */,
+				50F16AB716EB5178000E955E /* DuxiuBookPageRange.m */,
+				50F16AB816EB5178000E955E /* DuxiuBookPagesExporter.h */,
+				50F16AB916EB5178000E955E /* DuxiuBookPagesExporter.m */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		50F16ABE16EB5178000E955E /* SigmaLib */ = {
+			isa = PBXGroup;
+			children = (
+				50F16ABF16EB5178000E955E /* controls */,
+				50F16AC216EB5178000E955E /* tools */,
+				50F16ACE16EB5178000E955E /* utils */,
+			);
+			path = SigmaLib;
+			sourceTree = "<group>";
+		};
+		50F16ABF16EB5178000E955E /* controls */ = {
+			isa = PBXGroup;
+			children = (
+				50F16AC016EB5178000E955E /* SigmaWebView.h */,
+				50F16AC116EB5178000E955E /* SigmaWebView.m */,
+			);
+			path = controls;
+			sourceTree = "<group>";
+		};
+		50F16AC216EB5178000E955E /* tools */ = {
+			isa = PBXGroup;
+			children = (
+				50C485B216ED8C5A00705409 /* SigmaBackgroundTask.h */,
+				50C485B316ED8C5A00705409 /* SigmaBackgroundTask.m */,
+				50F16AC316EB5178000E955E /* ISigmaHtmlVarSearcher.h */,
+				50F16AC416EB5178000E955E /* SigmaBaseHtmlVarSearcher.h */,
+				50F16AC516EB5178000E955E /* SigmaBaseHtmlVarSearcher.m */,
+				50F16AC616EB5178000E955E /* SigmaHtmlVarSearcher.h */,
+				50F16AC716EB5178000E955E /* SigmaHtmlVarSearcher.m */,
+				50F16AC816EB5178000E955E /* SigmaTextHtmlVarSearcher.h */,
+				50F16AC916EB5178000E955E /* SigmaTextHtmlVarSearcher.m */,
+				50F16ACA16EB5178000E955E /* SigmaURLLoader.h */,
+				50F16ACB16EB5178000E955E /* SigmaURLLoader.m */,
+				50F16ACC16EB5178000E955E /* SigmaWebHtmlVarSearcher.h */,
+				50F16ACD16EB5178000E955E /* SigmaWebHtmlVarSearcher.m */,
+			);
+			path = tools;
+			sourceTree = "<group>";
+		};
+		50F16ACE16EB5178000E955E /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				50F16ACF16EB5178000E955E /* SigmaBrowserUtil.h */,
+				50F16AD016EB5178000E955E /* SigmaBrowserUtil.m */,
+				50F16AD116EB5178000E955E /* SigmaFileUtil.h */,
+				50F16AD216EB5178000E955E /* SigmaFileUtil.m */,
+				50F16AD316EB5178000E955E /* SigmaStringUtil.h */,
+				50F16AD416EB5178000E955E /* SigmaStringUtil.m */,
+				50C2D6F016EC3D1A0022FE5C /* SigmaCookieUtil.h */,
+				50C2D6F116EC3D1A0022FE5C /* SigmaCookieUtil.m */,
+				50C6BF4316EF5EDE00ADC8DC /* SigmaViewControllerUtil.h */,
+				50C6BF4416EF5EDE00ADC8DC /* SigmaViewControllerUtil.m */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50F16A5816EB50B5000E955E /* DuxiuApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50F16A7116EB50B5000E955E /* Build configuration list for PBXNativeTarget "DuxiuApp" */;
+			buildPhases = (
+				50F16A5516EB50B5000E955E /* Sources */,
+				50F16A5616EB50B5000E955E /* Frameworks */,
+				50F16A5716EB50B5000E955E /* Resources */,
+				50C2D6EE16EC1DA60022FE5C /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DuxiuApp;
+			productName = DuxiuApp2;
+			productReference = 50F16A5916EB50B5000E955E /* DuxiuApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50F16A5016EB50B5000E955E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Duxiu;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 50F16A5316EB50B5000E955E /* Build configuration list for PBXProject "DuxiuApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 50F16A4E16EB50B5000E955E;
+			productRefGroup = 50F16A5A16EB50B5000E955E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50F16A5816EB50B5000E955E /* DuxiuApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50F16A5716EB50B5000E955E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50F16AD716EB5178000E955E /* InfoPlist.strings in Resources */,
+				50F16AD816EB5178000E955E /* MainStoryboard_iPad.storyboard in Resources */,
+				50F16AD916EB5178000E955E /* MainStoryboard_iPhone.storyboard in Resources */,
+				50F16AF216EB5178000E955E /* Icon-iPad.png in Resources */,
+				50F16AF316EB5178000E955E /* Icon-iPad@2x.png in Resources */,
+				50F16AF416EB5178000E955E /* Icon.png in Resources */,
+				50F16AF516EB5178000E955E /* Icon@2x.png in Resources */,
+				50C4A7AC16F410050059289C /* Default@2x.png in Resources */,
+				50C4A7B016F415830059289C /* Default-Landscape~ipad.png in Resources */,
+				50C4A7B216F415A90059289C /* Default-Landscape@2x~ipad.png in Resources */,
+				50C4A7B416F4160B0059289C /* Default-Portrait~ipad.png in Resources */,
+				50C4A7B616F416700059289C /* Default-Portrait@2x~ipad.png in Resources */,
+				50C4A7B716F418300059289C /* Default-568h@2x.png in Resources */,
+				50C4A7B816F418560059289C /* Default.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		50C2D6EE16EC1DA60022FE5C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export CODESIGN_ALLOCATE=/Applications/Xcode_4.6.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate\nif [ \"${PLATFORM_NAME}\" == \"iphoneos\" ] || [ \"${PLATFORM_NAME}\" == \"ipados\" ]; then\n/Applications/Xcode_4.6.1.app/Contents/Developer/iPhoneEntitlements/gen_entitlements.py \"my.company.${PROJECT_NAME}\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${PROJECT_NAME}.xcent\";\ncodesign -f -s \"iPhone Developer\" --entitlements \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${PROJECT_NAME}.xcent\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/\"\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50F16A5516EB50B5000E955E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50F16AD616EB5178000E955E /* DuxiuAppDelegate.m in Sources */,
+				50F16ADA16EB5178000E955E /* main.m in Sources */,
+				50F16ADB16EB5178000E955E /* DuxiuTaskActionView.m in Sources */,
+				50F16ADC16EB5178000E955E /* DuxiuBookmarkViewController.m in Sources */,
+				50F16ADD16EB5178000E955E /* DuxiuBrowseViewController.m in Sources */,
+				50F16ADE16EB5178000E955E /* DuxiuHistoryViewController.m in Sources */,
+				50F16ADF16EB5178000E955E /* DuxiuPickerViewController.m in Sources */,
+				50F16AE016EB5178000E955E /* DuxiuTaskViewController.m in Sources */,
+				50F16AE116EB5178000E955E /* DuxiuController.m in Sources */,
+				50F16AE216EB5178000E955E /* DuxiuBookPageData.m in Sources */,
+				50F16AE316EB5178000E955E /* DuxiuBookPageType.m in Sources */,
+				50F16AE416EB5178000E955E /* DuxiuBookPageZoom.m in Sources */,
+				50F16AE516EB5178000E955E /* DuxiuBrowseItem.m in Sources */,
+				50F16AE616EB5178000E955E /* DuxiuBrowseModel.m in Sources */,
+				50F16AE716EB5178000E955E /* DuxiuCountModel.m in Sources */,
+				50F16AE816EB5178000E955E /* DuxiuDownloadModel.m in Sources */,
+				50F16AE916EB5178000E955E /* DuxiuExportModel.m in Sources */,
+				50F16AEA16EB5178000E955E /* DuxiuModel.m in Sources */,
+				50F16AEB16EB5178000E955E /* DuxiuTaskModel.m in Sources */,
+				50F16AEC16EB5178000E955E /* DuxiuBookPageCounter.m in Sources */,
+				50F16AED16EB5178000E955E /* DuxiuBookPageDefine.m in Sources */,
+				50F16AEE16EB5178000E955E /* DuxiuBookPageDownloader.m in Sources */,
+				50F16AEF16EB5178000E955E /* DuxiuBookPageIterator.m in Sources */,
+				50F16AF016EB5178000E955E /* DuxiuBookPageRange.m in Sources */,
+				50F16AF116EB5178000E955E /* DuxiuBookPagesExporter.m in Sources */,
+				50F16AF616EB5178000E955E /* SigmaWebView.m in Sources */,
+				50F16AF716EB5178000E955E /* SigmaBaseHtmlVarSearcher.m in Sources */,
+				50F16AF816EB5178000E955E /* SigmaHtmlVarSearcher.m in Sources */,
+				50F16AF916EB5178000E955E /* SigmaTextHtmlVarSearcher.m in Sources */,
+				50F16AFA16EB5178000E955E /* SigmaURLLoader.m in Sources */,
+				50F16AFB16EB5178000E955E /* SigmaWebHtmlVarSearcher.m in Sources */,
+				50F16AFC16EB5178000E955E /* SigmaBrowserUtil.m in Sources */,
+				50F16AFD16EB5178000E955E /* SigmaFileUtil.m in Sources */,
+				50F16AFE16EB5178000E955E /* SigmaStringUtil.m in Sources */,
+				50C2D6F216EC3D1A0022FE5C /* SigmaCookieUtil.m in Sources */,
+				50C485B416ED8C5A00705409 /* SigmaBackgroundTask.m in Sources */,
+				50C485B716ED8FF500705409 /* DuxiuAboutViewController.m in Sources */,
+				50C485F916EDED2B00705409 /* DuxiuDetailViewController.m in Sources */,
+				50C6BF4516EF5EDE00ADC8DC /* SigmaViewControllerUtil.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		50F16A7E16EB5178000E955E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50F16A7F16EB5178000E955E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		50F16A8016EB5178000E955E /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50F16A8116EB5178000E955E /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		50F16A8216EB5178000E955E /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50F16A8316EB5178000E955E /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		50F16A6F16EB50B5000E955E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		50F16A7016EB50B5000E955E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		50F16A7216EB50B5000E955E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DuxiuApp/DuxiuApp-Prefix.pch";
+				INFOPLIST_FILE = "DuxiuApp/DuxiuApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = DuxiuApp;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		50F16A7316EB50B5000E955E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DuxiuApp/DuxiuApp-Prefix.pch";
+				INFOPLIST_FILE = "DuxiuApp/DuxiuApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = DuxiuApp;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50F16A5316EB50B5000E955E /* Build configuration list for PBXProject "DuxiuApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50F16A6F16EB50B5000E955E /* Debug */,
+				50F16A7016EB50B5000E955E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50F16A7116EB50B5000E955E /* Build configuration list for PBXNativeTarget "DuxiuApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50F16A7216EB50B5000E955E /* Debug */,
+				50F16A7316EB50B5000E955E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 50F16A5016EB50B5000E955E /* Project object */;
+}
