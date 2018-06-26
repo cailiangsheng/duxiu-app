@@ -10,10 +10,10 @@
 
 @interface SigmaBackgroundTask : NSObject
 
-+ (void)enterBackgroundWhenNeedTask:(BOOL(^)())needTask 
-                             onWait:(void(^)())onWait 
-                            onSleep:(void(^)())onSleep 
-                           onWakeUp:(void(^)())onWakeUp;
++ (void)enterBackgroundWhenNeedTask:(BOOL(^)(void))needTask
+                             onWait:(void(^)(void))onWait
+                            onSleep:(void(^)(void))onSleep
+                           onWakeUp:(void(^)(void))onWakeUp;
 
 + (void)enterForeground;
 

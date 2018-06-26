@@ -75,7 +75,7 @@ static DuxiuTaskActionView *_instance = nil;
     _actionSheet = [[UIActionSheet alloc] init];
     _actionSheet.actionSheetStyle = UIActionSheetStyleAutomatic;
     _actionSheet.delegate = self;
-    _actionSheet.title = nil;
+    _actionSheet.title = @"";
     
     if ([DuxiuModel instance].taskModel.canFetchParams)
         [_actionSheet addButtonWithTitle:@"获取参数"];

@@ -410,7 +410,7 @@ NSMutableArray *getPageTypes()
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    NSString *CellIdentifier = [NSString stringWithFormat:@"Cell[%d,%d]", indexPath.section, indexPath.row];
+    NSString *CellIdentifier = [NSString stringWithFormat:@"Cell[%ld,%ld]", indexPath.section, indexPath.row];
     UITableViewCell *cell = [self.tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     cell.selected = false;
     [self fetchFieldFromCell:cell atIndexPath:indexPath];

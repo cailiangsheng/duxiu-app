@@ -11,10 +11,10 @@
 @implementation SigmaBackgroundTask
 
 static UIBackgroundTaskIdentifier _taskId = 0;
-static BOOL (^_needTask)() = nil;
-static void (^_onWait)() = nil;
-static void (^_onSleep)() = nil;
-static void (^_onWakeUp)() = nil;
+static BOOL (^_needTask)(void) = nil;
+static void (^_onWait)(void) = nil;
+static void (^_onSleep)(void) = nil;
+static void (^_onWakeUp)(void) = nil;
 
 UIApplication *getApplication()
 {
@@ -25,7 +25,7 @@ void endBackgroundTask()
 {
     if (_taskId != UIBackgroundTaskInvalid)
     {
-        NSLog(@"End background taskId: %d", _taskId);
+        NSLog(@"End background taskId: %lu", _taskId);
         [getApplication() endBackgroundTask:_taskId];
         _taskId = UIBackgroundTaskInvalid;
     }
@@ -100,7 +100,7 @@ BOOL beginBackgroundTask()
         
         if (_taskId != UIBackgroundTaskInvalid)
         {
-            NSLog(@"Begin background taskId: %d", _taskId);
+            NSLog(@"Begin background taskId: %lu", _taskId);
             if (_onWakeUp)
             {
                 _onWakeUp();
@@ -143,10 +143,10 @@ void startBackgroundTask(BOOL(^needTask)(), void(^onWait)(), void(^onSleep)(), v
 }
 
 //----------------------------------------------------------
-+ (void)enterBackgroundWhenNeedTask:(BOOL(^)())needTask 
-                             onWait:(void(^)())onWait 
-                            onSleep:(void(^)())onSleep 
-                           onWakeUp:(void(^)())onWakeUp
++ (void)enterBackgroundWhenNeedTask:(BOOL(^__strong)(void))needTask
+                             onWait:(void(^__strong)(void))onWait
+                            onSleep:(void(^)(void))onSleep
+                           onWakeUp:(void(^)(void))onWakeUp
 {
     startBackgroundTask(needTask, onWait, onSleep, onWakeUp);
 }
